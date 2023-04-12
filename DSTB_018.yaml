@@ -1,5 +1,31 @@
 proxies:
-- name: danu17_LiveDo18
+- name: danu17_LiveDo18a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
+- name: danu17_LiveDo18b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
+- name: danu17_LiveDo18c
   type: trojan
   server: beacon.liveon.id
   port: 443
