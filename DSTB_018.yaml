@@ -1,4 +1,43 @@
 proxies:
+- name: danu17_LiveDO18a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: a62e3877-ad21-4fb3-b1ee-5920efbebc7a
+  udp: true
+  sni: id-berkah1-stb.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-berkah1-stb.myserver-prem.cloud
+- name: danu17_LiveDO18b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: a62e3877-ad21-4fb3-b1ee-5920efbebc7a
+  udp: true
+  sni: id-berkah1-stb.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-berkah1-stb.myserver-prem.cloud
+- name: danu17_LiveDO18c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: a62e3877-ad21-4fb3-b1ee-5920efbebc7a
+  udp: true
+  sni: id-berkah1-stb.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-berkah1-stb.myserver-prem.cloud
 - name: danu017_LiveDO018a
   type: trojan
   server: 104.21.8.121
