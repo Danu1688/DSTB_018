@@ -1,121 +1,43 @@
 proxies:
-- name: danu17_LiveDO18a
+- name: Danu17_LiveDO18a
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: a62e3877-ad21-4fb3-b1ee-5920efbebc7a
+  password: 74010ea9-cdb7-472b-80a4-11bf787f894b
   udp: true
-  sni: id-berkah1-stb.myserver-prem.cloud
+  sni: do2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-berkah1-stb.myserver-prem.cloud
-- name: danu17_LiveDO18b
+      Host: do2.myserver-prem.cloud
+- name: Danu17_LiveDO18b
   type: trojan
   server: 172.67.139.111
   port: 443
-  password: a62e3877-ad21-4fb3-b1ee-5920efbebc7a
+  password: 74010ea9-cdb7-472b-80a4-11bf787f894b
   udp: true
-  sni: id-berkah1-stb.myserver-prem.cloud
+  sni: do2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-berkah1-stb.myserver-prem.cloud
-- name: danu17_LiveDO18c
+      Host: do2.myserver-prem.cloud
+- name: Danu17_LiveDO18c
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: a62e3877-ad21-4fb3-b1ee-5920efbebc7a
+  password: 74010ea9-cdb7-472b-80a4-11bf787f894b
   udp: true
-  sni: id-berkah1-stb.myserver-prem.cloud
+  sni: do2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-berkah1-stb.myserver-prem.cloud
-- name: danu017_LiveDO018a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: eb9eb501-b850-431f-8f29-875c76f9e088
-  udp: true
-  sni: sgdo2.rajs-vpn.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sgdo2.rajs-vpn.xyz
-- name: danu017_LiveDO018b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: eb9eb501-b850-431f-8f29-875c76f9e088
-  udp: true
-  sni: sgdo2.rajs-vpn.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sgdo2.rajs-vpn.xyz
-- name: danu017_LiveDO018c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: eb9eb501-b850-431f-8f29-875c76f9e088
-  udp: true
-  sni: sgdo2.rajs-vpn.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sgdo2.rajs-vpn.xyz
-- name: danu17_LiveDo18a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
-  udp: true
-  sni: do.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: do.sshpremium.my.id
-- name: danu17_LiveDo18b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
-  udp: true
-  sni: do.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: do.sshpremium.my.id
-- name: danu17_LiveDo18c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
-  udp: true
-  sni: do.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: do.sshpremium.my.id
+      Host: do2.myserver-prem.cloud
 - name: Danu21_LiveMlbiBUa
   type: trojan
   server: 104.21.8.121
