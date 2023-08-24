@@ -1,4 +1,17 @@
 proxies:
+- name: Belmira_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: bb28a761-4be8-41c8-9f5d-4c80b27a0156
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
 - name: Danu17_LiveDO18a
   type: trojan
   server: 104.21.8.121
