@@ -1,7 +1,7 @@
 proxies:
 - name: Belmira_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: bb28a761-4be8-41c8-9f5d-4c80b27a0156
   udp: true
