@@ -3,7 +3,7 @@ proxies:
   type: trojan
   server: circles.asia
   port: 443
-  password: bb28a761-4be8-41c8-9f5d-4c80b27a0156
+  password: 7ba1f63e-729e-4908-a0cd-54806d67675e
   udp: true
   sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
