@@ -1,4 +1,17 @@
 proxies:
+- name: BelmiraSvrNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: fcdff30a-6521-4159-b46b-f93a84b81739
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Belmira_LiveDO_1
   type: trojan
   server: circles.asia
